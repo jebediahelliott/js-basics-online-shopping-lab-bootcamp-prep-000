@@ -81,7 +81,7 @@ function placeOrder(cardNumber) {
   else
   {
     var finalPrice = total();
-    cart = removeFromCart(cart);
+    cart = [];
     return `Your total cost is $${finalPrice}, which will be charged to the card ${cardNumber}.`;
   }
 }
